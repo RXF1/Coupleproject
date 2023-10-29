@@ -13,10 +13,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,900;1,900&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/feather-icons"></script>
+<!-- Pastikan Anda memuat jQuery dan Slick Slider -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 
+<style>
+    .slider .menu-card {
+        transition: transform 0.4s, opacity 0.4s;
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
 
-  
+    .slider .menu-card.slick-center {
+        transition: transform 0.4s, opacity 0.4s;
+        opacity: 1;
+        transform: scale(1);
+    }
+</style>
+
+
+<link rel="stylesheet" href="users/assets/css/style.css">
 
 
 </head>
@@ -50,7 +67,7 @@
 <!-- cart section start -->
 <div class="shopping-cart">
     <div class="cart-item">
-        <img src="img/products/p.jpg" alt="">
+        <img src="users/assets/img/products/p.jpg" alt="">
         <div class="item-detail">
             <h3>Product 1</h3>
             <div class="item-price">IDR 30K</div>
@@ -66,7 +83,7 @@
         <i data-feather="trash-2" class="remove-item"></i>
     </div>
     <div class="cart-item">
-        <img src="img/products/p.jpg" alt="">
+        <img src="users/assets/img/products/p.jpg" alt="">
         <div class="item-detail">
             <h3>Product 1</h3>
             <div class="item-price">IDR 30K</div>
@@ -112,28 +129,28 @@
    <section id="menu" class="menu">
     <h2>Menu <span>Kami</span></h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cumque nostrum obcaecati necessitatibus adipisci! Soluta consequuntur ducimus tenetur iusto molestias.</p>
-    <div class="row">
-        <div class="menu-card">
+    <div class="row slider">
+        <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/expressoreal.jpg" alt="expresso" class="menu-card-img">
             <h3 class="menu-card-title">--espresso--</h3>
             <p class="menu-card-price">IDR 15K</p>
         </div>
-        <div class="menu-card">
+        <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/lattereal.jpg" alt="latte" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
         </div>
-        <div class="menu-card">
-            <img src="users/assets/img/menu/lattereal.jpg" alt="latte" class="menu-card-img">
+        <div class="menu-card zoom-effect">
+            <img src="users/assets/img/menu/iced-cappuccino.jpg" alt="cappucino" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
         </div>
-        <div class="menu-card">
-            <img src="users/assets/img/menu/lattereal.jpg" alt="latte" class="menu-card-img">
+        <div class="menu-card zoom-effect">
+            <img src="users/assets/img/menu/Iced-Americano.jpg" alt="iced-americano" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
         </div>
-        <div class="menu-card">
+        <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/lattereal.jpg" alt="latte" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
@@ -141,6 +158,23 @@
     </div>
    </section>
 
+{{-- <section id="menu" class="menu">
+    <h2>Menu <span>Kami</span></h2>
+    <div class="slider">
+        <div class="slide">
+            <img src="users/assets/img/menu/expressoreal.jpg" alt="Slide 1" class="slider-img">
+        </div>
+        <div class="slide">
+            <img src="users/assets/img/menu/lattereal.jpg" alt="Slide 2" class="slider-img">
+        </div>
+        <div class="slide">
+            <img src="users/assets/img/menu/Iced-Americano.jpg" alt="Slide 3" class="slider-img">
+        </div>
+        <div class="slide">
+            <img src="users/assets/img/menu/cappuccino.jpg" alt="Slide 4" class="slider-img">
+        </div>
+    </div>
+</section> --}}
 
    <!-- menu section end-->
    <!-- Produk section start -->
@@ -154,7 +188,7 @@
                 <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
             </div>
             <div class="product-image">
-                <img src="img/products/p.jpg" alt="product 1">
+                <img src="users/assets/img/products/p.jpg" alt="product 1">
             </div>
             <div class="product-content">
                 <h3>Coffee Beans</h3>
@@ -175,7 +209,7 @@
                 <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
             </div>
             <div class="product-image">
-                <img src="img/products/p.jpg" alt="product 1">
+                <img src="users/assets/img/products/p.jpg" alt="product 1">
             </div>
             <div class="product-content">
                 <h3>Coffee Beans</h3>
@@ -196,7 +230,7 @@
                 <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
             </div>
             <div class="product-image">
-                <img src="img/products/p.jpg" alt="product 1">
+                <img src="users/assets/img/products/p.jpg" alt="product 1">
             </div>
             <div class="product-content">
                 <h3>Coffee Beans</h3>
@@ -265,7 +299,7 @@
         <div class="modal-container">
             <a href="#"><i data-feather="x" class="close-icon"></i></a>
             <div class="modal-content">
-                <img src="img/products/p.jpg" alt="">
+                <img src="users/assets/img/products/p.jpg" alt="">
                 <div class="product-content">
                     <h3>Product1</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit a sint repellendus tempora quia amet odio commodi error impedit, quisquam fugiat qui distinctio sequi ipsam.</p>
@@ -289,6 +323,24 @@
       </script>
 
       <script src="users/assets/js/script.js"></script>
+      
 </body>
 
 </html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.slider').slick({
+            slidesToShow: 3,
+            centerMode: true,
+            centerPadding: '0',
+            infinite: true,
+            focusOnSelect: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    });
+</script>
