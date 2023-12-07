@@ -166,7 +166,7 @@ body {
 }
 .shopping-cart .cart-item{
     margin: 2rem 0;
-    display: flex;
+    display: flex; 
     align-items: center;
     gap: 0.5rem;
     padding-bottom: 1rem;
@@ -332,6 +332,13 @@ menu section
 .menu .row .menu-card .menu-card-title{
     margin-top: 1rem;
 }
+
+.menu-card .menu-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
 /* product section */
 .products .row{
     display: grid;

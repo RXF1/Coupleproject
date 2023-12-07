@@ -132,28 +132,40 @@
     <div class="row slider">
         <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/expressoreal.jpg" alt="expresso" class="menu-card-img">
-            <h3 class="menu-card-title">--espresso--</h3>
+            <h3 class="menu-card-title">-- espresso --</h3>
             <p class="menu-card-price">IDR 15K</p>
+            <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+            </div>
         </div>
         <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/lattereal.jpg" alt="latte" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
         <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/iced-cappuccino.jpg" alt="cappucino" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
         <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/Iced-Americano.jpg" alt="iced-americano" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
         <div class="menu-card zoom-effect">
             <img src="users/assets/img/menu/lattereal.jpg" alt="latte" class="menu-card-img">
             <h3 class="menu-card-title">--Latte--</h3>
             <p class="menu-card-price">IDR 18K</p>
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
     </div>
    </section>
@@ -323,6 +335,7 @@
       </script>
 
       <script src="users/assets/js/script.js"></script>
+      <script src="script.js"></script>
       
 </body>
 
